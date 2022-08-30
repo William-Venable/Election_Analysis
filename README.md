@@ -27,5 +27,20 @@ The analysis of the election shows that:
     - Diana DeGette, who received 73.8% of the vote which is 272,892 votes
 
 ## Challenge Overview
-
+Following the challenge assignment, I was given the following tasks to complete following the election audit for the previous PyPoll.
+  1. Get a complete list of counties that voted.
+  2. Calculate the total number of votes from each county.
+  3. Determine which county had the largest vote count.
+  
 ## Challenge Summary
+The analysis of the challenge shows that:
+  - The county vote results were:
+    - Jefferson submitted 10.5% of the total vote count (38,855)
+    - Denver submitted 82.8% of the total vote count (306,055)
+    - Arapahoe submitted 6.7% of the total vote count (24,801)
+  - The county with the largest turnout was:
+    - Denver
+
+The script used for this local election could be also applied to something as big as a presidential election with only a few modifcations to the code such as:
+  - Switching counties to US states
+  - Implementing a for loop to determine the percentage of Democratic and Republican votes
