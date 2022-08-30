@@ -41,6 +41,10 @@ The analysis of the challenge shows that:
   - The county with the largest turnout was:
     - Denver
 
+Full Election Results shown below:
+
+![Election_Results](https://user-images.githubusercontent.com/110737061/187561704-1856d152-e814-4d66-8179-4544b60f6411.png)
+
 The script used for this local election could be also applied to something as big as a presidential election with only a few modifcations to the code such as:
   - Switching counties to US states
   - Implementing a for loop to determine the percentage of Democratic and Republican votes
