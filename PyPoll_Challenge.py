@@ -86,7 +86,7 @@ with open(file_to_save, "w") as txt_file:
         f"\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n\n"
+        f"-------------------------\n"
         f"County Votes:\n")
     print(election_results, end="")
 
@@ -113,7 +113,6 @@ with open(file_to_save, "w") as txt_file:
     largest_county_summary = (
         f"-------------------------\n"
         f"Largest Turnout: {largest_county}\n"
-        f"Largest County Vote Count: {largest_count:,}\n"
         f"-------------------------\n")
     print(largest_county_summary)
 
